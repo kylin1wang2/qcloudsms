@@ -1,0 +1,24 @@
+{
+    "name": "kylinwang/qcloudsms",
+    "description": "Tencent Qcloud Short Message Service.",
+    "type": "project",
+    "require": {
+        "php": ">=5.6"
+    },
+    "require-dev": {
+        "php": ">=5.6"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "kylinwang",
+            "email": "1726060524@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload":{
+        "psr-4":{
+            "src\\sms\\":"src/sms"
+        }
+    }
+}
