@@ -15,7 +15,7 @@
             "email": "1726060524@qq.com"
         }
     ],
-    "minimum-stability": "dev-master",
+    "minimum-stability": "dev",
     "autoload":{
         "psr-4":{
             "src\\sms\\":"src/sms"
