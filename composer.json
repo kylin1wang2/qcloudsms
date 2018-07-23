@@ -3,8 +3,7 @@
   "description": "Tencent Qcloud Short Message Service.",
   "type": "liblary",
   "require": {
-    "php": ">=5.6.0",
-    "kylinwang/qcloudsms": "dev-master"
+    "php": ">=5.6.0"
   },
   "require-dev": {
     "php": ">=5.6.0"
@@ -16,7 +15,7 @@
       "email": "1726060524@qq.com"
     }
   ],
-  "minimum-stability": "dev",
+  "minimum-stability": "stable",
   "prefer-stable": true,
   "autoload": {
     "psr-4": {
