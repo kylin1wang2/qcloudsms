@@ -1,12 +1,13 @@
 {
   "name": "kylinwang/qcloudsms",
   "description": "Tencent Qcloud Short Message Service.",
+  "version":"1.0.1",
   "type": "liblary",
   "require": {
     "php": ">=5.6.0"
   },
   "require-dev": {
-    "php": ">=5.6.0"
+
   },
   "license": "MIT",
   "authors": [
@@ -19,7 +20,8 @@
   "prefer-stable": true,
   "autoload": {
     "psr-4": {
-      "src\\sms\\": "src/sms"
+      "src\\sms\\": "src/sms",
+      "src\\sample\\": "src/sample"
     }
   }
 }
